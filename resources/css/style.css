@@ -13,16 +13,23 @@ body{
     background-image: url("../images/david-hofmann--Ae2HFODn2Q-unsplash.jpg");
     background-size: cover;
     margin-bottom: 0;
+    overflow: hidden;
 }
-.jumbotron .container{
-    height: 20rem;
-}
+
 .jumbotron h1{
     color: rgb(8, 59, 68);
     font-size: 3.5rem;
     margin-top: 5rem;
     padding-bottom: 5rem;
+    height: inherit;
+    background: inherit; 
+	-webkit-background-clip: text;
+					background-clip: text;
+    color: transparent;
+    text-align: center; 
+    filter: invert(1); 
 }
+
 .jumbotron span{
     font-size: 2rem;
 }
